@@ -1,17 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import imagePath from '../constant/imagePath';
 
 
 // Sample client data
 const clients = [
-    { name: "Schneider Electric", logo: "src/assets/testimonial.png" },
-    { name: "Kotak", logo: "src/assets/image 33.png" },
-    { name: "Mahindra Aerospace", logo: "src/assets/image 34.png" },
-    { name: "PNB", logo: "src/assets/image 35.png" },
-    { name: "Dell", logo: "src/assets/image 36.png" },
-    { name: "MindSpace", logo: "src/assets/image 37.png" },
-    { name: "Genpact", logo: "src/assets/image 33.png" },
-    { name: "C-DOT", logo: "src/assets/image 33.png" },
+    { name: "Schneider Electric", logo: imagePath.comany1 },
+    { name: "Kotak", logo: imagePath.comany2 },
+    { name: "Mahindra Aerospace", logo: imagePath.comany3 },
+    { name: "PNB", logo: imagePath.comany4 },
+    { name: "Dell", logo: imagePath.comany5 },
+    { name: "MindSpace", logo: imagePath.comany6 },
+    { name: "Genpact", logo: imagePath.comany7 },
+    { name: "C-DOT", logo: imagePath.comany8 },
 ];
 
 const ClientsComponent = React.memo(() => {

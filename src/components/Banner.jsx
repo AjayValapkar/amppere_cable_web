@@ -1,23 +1,24 @@
 import React, { useState, useEffect } from 'react';
+import imagePath from '../constant/imagePath';
 
 const slides = [
     {
         id: 1,
-        title: 'Cable & Wires',
+        title: 'Survival Cable',
         description: 'Our extensive cable product line is engineered to meet the highest standards in the industry.',
-        imageUrl: '/src/assets/banner-wire.png', // replace with actual image path
+        imageUrl: imagePath.banner1, // replace with actual image path
     },
     {
         id: 2,
         title: 'Optical Fiber',
         description: 'Delivering high-performance optical fiber cables for fast and reliable data transmission.',
-        imageUrl: '/src/assets/banner2.png', // replace with actual image path
+        imageUrl: imagePath.banner2, // replace with actual image path
     },
     {
         id: 4,
         title: 'Power Cables',
         description: 'Durable power cables designed to meet diverse industrial needs with the utmost reliability.',
-        imageUrl: '/src/assets/banner3.png', // replace with actual image path
+        imageUrl: imagePath.banner3, // replace with actual image path
     },
 ];
 

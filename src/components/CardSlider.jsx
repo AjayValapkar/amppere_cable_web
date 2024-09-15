@@ -1,29 +1,30 @@
 import React, { useState, useEffect } from 'react';
+import imagePath from '../constant/imagePath';
 
 const testimonials = [
     {
         id: 1,
         name: 'Junani Fire Industries',
         text: '"Amppere’s cables offer unmatched quality and durability, with outstanding customer service. They’ve been a crucial supplier for our fire safety systems, and their dedication to excellence ensures our continued partnership. "',
-        imageUrl: '/src/assets/junai.png', // replace with actual image path
+        imageUrl: imagePath.review1, // replace with actual image path
     },
     {
         id: 2,
         name: 'Nexus Engineering',
         text: '"Amppere provides dependable cabling solutions that meet our rigorous standards. Their consistent product quality and prompt delivery are essential to our engineering projects, making them a valued and trusted partner. "',
-        imageUrl: '/src/assets/nexus.png', // replace with actual image path
+        imageUrl: imagePath.review2, // replace with actual image path
     },
     {
         id: 3,
         name: 'KIAM INTL PVT LTD.',
         text: '" Amppere’s cabling materials are top- notch, and their on - time delivery is impressive.Theyve been crucial to our banking and retail projects, and their reliability makes them a valuable partner.Were excited to continue working with them. "',
-        imageUrl: '/src/assets/kiam.webp', // replace with actual image path
+        imageUrl:imagePath.review3, // replace with actual image path
     },
     {
         id: 4,
         name: 'SCHNEIDER ELECTRIC',
         text: '"Amppere consistently delivers high-quality cabling materials and meets deadlines, which is vital for our operations. Their dependability has built our trust, and we are eager to expand our business relationship. Their exceptional service sets them apart."',
-        imageUrl: '/src/assets/testimonial.png', // replace with actual image path
+        imageUrl: imagePath.review4, // replace with actual image path
     },
 ];
 

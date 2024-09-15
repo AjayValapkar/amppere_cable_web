@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import imagePath from '../constant/imagePath';
+
 
 const goals = [
   {
     id: 1,
     title: 'Innovative Product Development:',
     description: 'Continuously investing in research and development to introduce cutting-edge technologies that enhance performance, safety, and efficiency',
-    icon: '/src/assets/goal1.png',
+    icon: imagePath.goal1,
     anima: 'fade-left',
     borders: 'border-l-8 border-b-8 border-[#AE1B1B] m-0 p-6 md:p-0 md:border-none',
   },
@@ -15,7 +17,7 @@ const goals = [
     id: 2,
     title: 'Exceptional Customer Service:',
     description: 'Delivering outstanding support and service at every stage of the customer journey, from initial inquiry to post-purchase assistance',
-    icon: '/src/assets/goal2.png',
+    icon: imagePath.goal2,
     anima: 'fade-right',
     borders: 'border-r-8 border-b-8 border-[#AE1B1B] m-0 p-6 md:p-0 md:border-none',
   },
@@ -23,7 +25,7 @@ const goals = [
     id: 3,
     title: 'On-Time Delivery:',
     description: 'Ensuring that all orders are delivered promptly and within the promised timeframe to maintain customer satisfaction and trust',
-    icon: '/src/assets/goal3.png',
+    icon: imagePath.goal3,
     anima: 'fade-left',
     borders: 'border-l-8 border-b-8 border-[#AE1B1B] m-0 p-6 md:p-0 md:border-none',
   },
@@ -31,7 +33,7 @@ const goals = [
     id: 4,
     title: 'Customized Orders:',
     description: 'Providing tailored solutions to meet the unique requirements of clients, offering a wide range of customizable options for cable length, material, and specifications',
-    icon: '/src/assets/goal1.png',
+    icon: imagePath.goal4,
     anima: 'fade-right',
     borders: 'border-r-8 border-[#AE1B1B] m-0 p-6 md:p-0 md:border-none',
   },

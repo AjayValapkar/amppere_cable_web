@@ -2,6 +2,8 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import imagePath from '../constant/imagePath';
+
 
 const HeroSection = () => {
   useEffect(() => {
@@ -26,7 +28,7 @@ const HeroSection = () => {
       <div className="relative flex flex-col md:flex-row items-center space-y-4 md:space-x-0 md:space-y-0 w-full max-w-screen-lg p-0">
         <div className="relative w-full md:w-1/3 flex-shrink-0 flex items-center justify-center">
           <img
-            src="/src/assets/commit.png" // Replace with the actual path to the image
+            src= {imagePath.commit} // Replace with the actual path to the image
             alt="Hand Holding Heart"
             className="h-auto w-3/5 md:w-3/4 relative z-30 md:-mb-14 p-0" // Apply negative margin for overlap
             data-aos="fade-down"
@@ -44,14 +46,14 @@ const HeroSection = () => {
       </div>
 
       <div className="bg-custom-blue w-full py-10 md:py-16 mb-2 md:mb-8 flex flex-wrap justify-center gap-2 md:gap-[40px] items-center">
-        {["icon1.png", "icon2.png", "icon3.png", "icon4.png"].map((icon, index) => (
+        {[imagePath.icon1, imagePath.icon2, imagePath.icon3, imagePath.icon4].map((icon, index) => (
           <div
             key={index}
             className="bg-icon-color p-5 md:p-4 rounded-full"
             data-aos="fade-up"
             data-aos-delay={index * 200} // Adds a delay for staggered animations
           >
-            <img src={`/src/assets/${icon}`} alt={`Icon ${index + 1}`} className="w-8 md:w-20 h-8 md:h-20" />
+            <img src={`${icon}`} alt={`Icon ${index + 1}`} className="w-8 md:w-20 h-8 md:h-20" />
           </div>
         ))}
       </div>

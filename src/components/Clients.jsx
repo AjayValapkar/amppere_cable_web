@@ -1,19 +1,20 @@
 import React from 'react';
+import imagePath from '../constant/imagePath';
 
 const Clients = () => {
     const clients = [
-        "src/assets/testimonial.png",
-        "src/assets/nexus.png",
-        "src/assets/Capgemini-Logo.png",
-        "src/assets/image 34.png",
-        "src/assets/Mahindra_aerospace.webp",
-        "src/assets/image 35.png",
-        "src/assets/bse.jpg",
-        "src/assets/nxp.avif",
-        "src/assets/image 36.png",
-        "src/assets/image 37.png",
-        "src/assets/image 33.png",
-        "src/assets/junai.png",
+        imagePath.comany1,
+        imagePath.comany2,
+        imagePath.comany3,
+        imagePath.comany4,
+        imagePath.comany5,
+        imagePath.comany6,
+        imagePath.comany9,
+        imagePath.comany10,
+        imagePath.comany11,
+        imagePath.comany12,
+        imagePath.comany13,
+        imagePath.review1,
     ];
 
     return (

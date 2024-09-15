@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";// Importing Link from react-router-dom
+import imagePath from "../constant/imagePath";
 
 const Footer = React.memo(() => {
     useEffect(() => {
@@ -14,7 +15,7 @@ const Footer = React.memo(() => {
             <div className="absolute inset-0 z-[-1] bg-black bg-opacity-60"></div>
 
             <div className="container mx-auto px-4 relative z-10">
-                <img src="/src/assets/logo.png" alt="Ampere Cable Logo" className="h-28 sm:h-20 md:h-26 lg:h-40" />
+                <img src={imagePath.logo} alt="Ampere Cable Logo" className="h-28 sm:h-20 md:h-26 lg:h-40" />
                 <p className="text-white text-sm mb-4 ">Where Quality Meets Reliability</p>
 
                 <div className="flex flex-wrap justify-between my-0 md:my-6">

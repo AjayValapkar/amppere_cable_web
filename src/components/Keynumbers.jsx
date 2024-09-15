@@ -3,6 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
+import imagePath from '../constant/imagePath';
 const KeyNumbers = () => {
     // Initialize AOS
     React.useEffect(() => {
@@ -41,7 +42,7 @@ const KeyNumbers = () => {
                         ref={ref1}
                     >
                         <img
-                            src="src/assets/key1.png"
+                            src={imagePath.key1}
                             alt="Image description"
                             className="w-40 h-40 p-4 object-contain mx-auto"
                         />
@@ -69,7 +70,7 @@ const KeyNumbers = () => {
                         ref={ref2}
                     >
                         <img
-                            src="src/assets/key2.png"
+                            src={imagePath.key2}
                             alt="Image description"
                             className="w-28 h-28 object-contain mb-10 mx-auto"
                         />
@@ -97,7 +98,7 @@ const KeyNumbers = () => {
                         ref={ref3}
                     >
                         <img
-                            src="src/assets/key3.png"
+                            src={imagePath.key3}
                             alt="Image description"
                             className="w-40 h-40 object-contain mx-auto"
                         />

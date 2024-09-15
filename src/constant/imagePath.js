@@ -28,6 +28,46 @@ import nexus from '../assets/nexus.png';
 import kiam from '../assets/kiam.webp';
 import wire from '../assets/wire.png'
 import aboutUs from '../assets/navback.png'
+import goal1 from '../assets/goal1.png'
+import goal2 from '../assets/goal2.png'
+import goal3 from '../assets/goal3.png'
+import goal4 from '../assets/goal1.png'
+import banner1 from '../assets/banner-wire.png'
+import banner2 from '../assets/banner2.png'
+import banner3 from '../assets/banner3.png'
+
+import icon1 from '../assets/icon1.png'
+import icon2 from '../assets/icon2.png'
+import icon3 from '../assets/icon3.png'
+import icon4 from '../assets/icon4.png'
+import commit from '../assets/commit.png'
+
+import comany1 from '../assets/testimonial.png'
+import comany2 from '../assets/image 33.png'
+import comany3 from '../assets/image 34.png'
+import comany4 from '../assets/image 35.png'
+import comany5 from '../assets/image 36.png'
+import comany6 from '../assets/image 37.png'
+import comany7 from '../assets/image 33.png'
+import comany8 from '../assets/image 33.png'
+
+import review1 from '../assets/junai.png'
+import review2 from '../assets/nexus.png'
+import review3 from '../assets/kiam.webp'
+import review4 from '../assets/testimonial.png'
+
+import key1 from '../assets/key1.png'
+import key2 from '../assets/key2.png'
+import key3 from '../assets/key3.png'
+
+import logo from '../assets/logo.png'
+
+import comany9 from '../assets/nexus.png'
+import comany10 from '../assets/Capgemini-Logo.png'
+import comany11 from '../assets/Mahindra_aerospace.webp'
+import comany12 from '../assets/bse.jpg'
+import comany13 from '../assets/nxp.avif'
+
 
 
 const imagePath = {
@@ -60,7 +100,40 @@ const imagePath = {
   nexus,
   kiam,
   wire,
-  aboutUs
+  aboutUs,
+  goal1,
+  goal2,
+  goal3,
+  goal4,
+  banner1,
+  banner2,
+  banner3,
+  icon1,
+  icon2,
+  icon3,
+  icon4,
+  commit,
+  comany1,
+  comany2,
+  comany3,
+  comany4,
+  comany5,
+  comany6,
+  comany7,
+  comany8,
+  comany9,
+  comany10,
+  comany11,
+  comany12,
+  comany13,
+  review1,
+  review2,
+  review3,
+  review4,
+  key1,
+  key2,
+  key3,
+  logo
 };
 
 export default imagePath;
