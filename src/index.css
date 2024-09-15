@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* src/index.css or src/App.css */
+html, body {
+  overflow-x: hidden;
+}
+.wave-top {
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+}
+
+
+
